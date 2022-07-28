@@ -7,9 +7,9 @@
 </head>
 <body>
 
-  <button onclick="mostraTintas()">Lista em estoque:</button>
+  <button data-mostra="mostrar">Lista em estoque:</button>
 
-  <ul class="lista" id="lista">
+  <ul class="lista" id="lista" >
     <li cor="laranja" tipo="tinta-exterior" class="item">Tinta laranja</li>
     <li cor="vermelho" tipo="tinta-interior" class="item">Tinta vermelha</li>
     <li cor="branco" tipo="tinta-interior" class="item">Tinta branca</li>
@@ -18,7 +18,7 @@
     <li cor="preto" tipo="tinta-exterior" class="item">Tinta preta</li>
   </ul>
 
-  <button onclick="desapareceTintas()">Esconder lista</button>
+  <button data-oculta="esconder">Esconder lista</button>
   <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
 
   <script src="main.js"></script>
