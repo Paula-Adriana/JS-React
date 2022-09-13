@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "C:/Users/Paula/Desktop/Cursos/GitHub/JS-React/fun-facts/src/assets/logo.png";
+import logo from "../../assets/images/logo.svg";
 import "./index.css";
 
 const Header = () => {
