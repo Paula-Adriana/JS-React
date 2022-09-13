@@ -1,0 +1,15 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #c2cdda;
+  color: whitesmoke;
+  flex-direction: column;
+}
+
+.create-form label{
+  color: rgb(80, 78, 78) !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px !important;
+}
