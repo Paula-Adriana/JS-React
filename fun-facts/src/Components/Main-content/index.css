@@ -1,0 +1,15 @@
+.corpo {
+    background-color: rgb(229, 219, 219);
+    padding: 5px;
+}
+
+.corpo h1 {
+    justify-content: center;
+    display: flex;
+}
+
+.corpo ul {
+    justify-content: center; 
+    display: flex;
+    justify-content: space-between;
+}
